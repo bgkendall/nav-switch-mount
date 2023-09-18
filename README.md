@@ -3,9 +3,10 @@
 ![5-way Navigation Switch Mount](Images/nav-switch-mount.png)
 
 This is a simple PCB for mounting through-hole 5-way navigation switches such as
-the [ALPS SKQUCAA010]. It is intended for use in keyboard projects. Included are
-the [KiCad] PCB design files and, soon (!!) [Gerber format] files for PCB
-production.
+the [ALPS SKQUCAA010]. It is intended for use in keyboard projects and provides
+a way to both secure a nav. switch and easily wire it into a keyboard matrix.
+Included are the [KiCad] PCB design files and, soon (!!) [Gerber format] files
+for PCB production.
 
 This switch has been discontinued by ALPS, but equivalents can be obtained from
 [Adafruit][ada-504] and various vendors on [AliExpress][ali-SKQ][^1].
@@ -39,7 +40,7 @@ run the wires between the plate and PCB.
    For Row-to-Column matrices the diodes must be installed in the opposite
    direction.
  * The arrows point in the direction that the switch is actually pushed. This
-   means that when viewed from the bottom, the left and right arrows indicate
+   means that when viewed from the bottom the left and right arrows indicate
    right and left movement respectively.
 
 
