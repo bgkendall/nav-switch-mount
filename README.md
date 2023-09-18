@@ -5,13 +5,14 @@
 This is a simple PCB for mounting through-hole 5-way navigation switches such as
 the [ALPS SKQUCAA010]. It is intended for use in keyboard projects and provides
 a way to both secure a nav. switch and easily wire it into a keyboard matrix.
-Included are the [KiCad] PCB design files and, soon (!!) [Gerber format] files
-for PCB production.
 
 This switch has been discontinued by ALPS, but equivalents can be obtained from
 [Adafruit][ada-504] and various vendors on [AliExpress][ali-SKQ][^1].
 
 <img src="Images/5-five-way-switches.jpg" width="250" title="5-way Navigation Switches">
+
+This repository contains the [KiCad] PCB design files and [Gerber format] files
+for PCB production. Zipped Gerber packages are included in the release assets.
 
 
 [^1]: If no results are shown, try refreshing the page.
