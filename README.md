@@ -37,7 +37,7 @@ run the wires between the plate and PCB.
 
 ### Notes
 
- * The makings on the silkscreen orient the diodes for **Column-to-Row** use.
+ * The markings on the silkscreen orient the diodes for **Column-to-Row** use.
    For Row-to-Column matrices the diodes must be installed in the opposite
    direction.
  * The arrows point in the direction that the switch is actually pushed. This
@@ -57,7 +57,10 @@ The mounting PCB is intended to be secured to the plate using M2 hardware. Two
 Alternatively, for hand-wired builds[^3], the PCB can be used in conjunction
 with Kevin Eckert’s [Nav Switch to MX Adapter][nav2mx]. The switch’s legs should
 be just long enough to reach past the bottom of the adaptor and through the
-mounting PCB.
+mounting PCB. However, the switch’s legs will need to be straightened (be
+careful when doing this — the fragility of these legs was one of the main
+prompts to create this board) and careful consideration will need to be given
+to the order of assembly.
 
 
 [^3]: There is not enough room between a plate and keyboard PCB for the adaptor
