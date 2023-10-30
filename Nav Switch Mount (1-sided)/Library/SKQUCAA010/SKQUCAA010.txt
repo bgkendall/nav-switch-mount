@@ -1,0 +1,13 @@
+﻿"Symbol";"Value";"Unit";
+"TraceParts.PartNumber";"10-04022015-104118";"";
+"REFERENCE";"SKQUCAA010";"";
+"TraceParts.PartTitle";"Joystick Switch, 2 axes, 50 mA@ 12 V ac Through Hole 12V dc";"";
+"TraceParts.InstanceId";"10-04022015-104118BQ4CC4RSPQDB78FCO6N68V3XU";"";
+"DESIGN";"Joystick Switch, 2 axes, 50 mA@ 12 V ac Through Hole 12V dc";"";
+"TraceParts.PartStatus";"Published";"";
+"TraceParts.PartStatusId";"";"";
+"SUPPLIER";"ALPS";"";
+"TraceParts.PartVersion";"1.0.4";"";
+"TRACEPARTS";"TRACEPARTS";"";
+"TraceParts.PartLanguage";"en";"";
+"TraceParts.ClassPath";"ALPS:10-04022015-104118";"";
