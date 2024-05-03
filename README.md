@@ -87,7 +87,7 @@ past the bottom of the adaptor and through the mounting PCB. The switch’s legs
 may need to be straightened for ease of soldering (be careful if doing this —
 the fragility of these legs was one of the main prompts to create this board!).
 
-For keyboards with a PCB, the adaptor can **only** with the 1-sided variant and
+For keyboards with a PCB, the adaptor can **only** be used with the 1-sided variant and
 the mounting board must be thinner than the usual 1.6mm to allow room for the
 switch legs to be soldered[^3]. The legs will need to be trimmed back as much as
 possible to avoid pressing on the keyboard PCB. There is not enough room between
