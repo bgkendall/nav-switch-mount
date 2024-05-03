@@ -30,7 +30,7 @@ The current (v2) PCB is 22.9×13.2mm. The diodes can be mounted on either side o
 the PCB. Connections to the board are via wires that align with MX switch centre
 and alignment pins.
 
-The first version of the PCB came in two versions:
+The first version of the PCB came in two variants:
 
  * **1-sided** — 24.3×13mm — the switch and diodes are all mounted on the top
     of the PCB.
