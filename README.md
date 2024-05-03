@@ -26,32 +26,35 @@ for PCB production. Zipped Gerber packages are included in the release assets.
 
  ## Options
 
-The PCB comes in two flavours:
+The current (v2) PCB is 22.9×13.2mm. The diodes can be mounted on either side of
+the PCB. Connections to the board are via wires that align with MX switch centre
+and alignment pins.
+
+The first version of the PCB came in two versions:
 
  * **1-sided** — 24.3×13mm — the switch and diodes are all mounted on the top
     of the PCB.
  * **2-sided** — 22.3×12.6mm — the diodes are mounted on the opposite side of
-    the PCB to the switch.
+    the PCB to the switch. Wire connections are via pads.
 
 ## Wiring
 
-The switch and diodes are installed as marked. The PCB is wired into the
-[keyboard matrix] via the holes (1-sided) or pads (2-sided) on the underside.
-The *Row* hole/pad is the common pin for the switch and should be connected to a
-row pin on the MCU. The other holes/pads should be connected to columns, with the
-silkscreen near the connection point indicating the direction (see notes below).
-For the 2-sided PCB, it is envisaged that the wires will run to the underside of
-the main keyboard PCB via the switch’s central hole. For the 1-sided PCB the
-holes are specifically designed to align up with the centre and two alignment
-pins of an MX switch. The best routing will depend on the exact board being
-modified — in some cases it may be desirable to run the wires between the plate
-and PCB.
+The switch and diodes are installed as marked. Diodes may be soldered on the
+opposite side to the switch (positions D1—D5) or on the same side as the switch
+(∆1—∆5) depending on preference. The PCB is wired into the [keyboard matrix] via
+the holes on the underside. The *Row* hole/pad is the common pin for the switch
+and should be connected to a row pin on the MCU. The other holes/pads should be
+connected to columns, with the silkscreen near the connection point indicating
+the direction (see notes below). The holes are specifically designed to line-up
+with the centre and two alignment pins of an MX switch, allowing the wires to
+easily run through to the back of the keyboard’s PCB. However, the best routing
+will depend on the exact board being modified — in some cases it may be
+desirable to run the wires between the plate and PCB.
 
-When wiring the 1-sided board it is recommended that masking tape is used to
-prevent solder from building up on the upper side of the board (in a similar
-manner to when socketing an MCU) and the wires will need to be soldered from the
-bottom side (i.e., in the opposite way from how a wire would normally be
-soldered).
+It is recommended that masking tape is used to prevent solder from building up
+on the upper side of the board (in a similar manner to when socketing an MCU)
+and the wires will need to be soldered from the bottom side (i.e., from the
+opposite direction from how a wire would normally be soldered).
 
 ### Notes
 
@@ -87,12 +90,11 @@ past the bottom of the adaptor and through the mounting PCB. The switch’s legs
 may need to be straightened for ease of soldering (be careful if doing this —
 the fragility of these legs was one of the main prompts to create this board!).
 
-For keyboards with a PCB, the adaptor can **only** be used with the 1-sided variant and
-the mounting board must be thinner than the usual 1.6mm to allow room for the
-switch legs to be soldered[^3]. The legs will need to be trimmed back as much as
-possible to avoid pressing on the keyboard PCB. There is not enough room between
-a plate and a keyboard PCB for the adaptor *and* the 2-sided PCB *and* its
-diodes.
+For keyboards with a PCB, the adaptor can **only** be used top-mounted diodes
+and the mounting board must be thinner than the usual 1.6mm to allow room for
+the switch legs to be soldered[^3]. The legs will need to be trimmed back as
+much as possible to avoid pressing on the keyboard PCB. There is not enough room
+between a plate and a keyboard PCB for the adaptor and bottom-mounted diodes.
 
 Careful consideration should be given to the order of assembly when using the
 adaptor.
