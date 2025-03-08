@@ -113,22 +113,15 @@ Options for keycaps on navigation switches:
    alongside their [Nav Switch to MX Adapter][nav2mx] for mounting nav. switches
    in MX plates.
  * I have created three adaptors for attaching MX keycaps to navigation
-   switches. The STL and glTF files can be found in the [*Adaptors*
-   directory][adaptors], and the original models can be found by following the
-   links to Tinkercad:
-    * [Nav Switch to MX Stem Adaptor (PCB mount)][mx2navPCB] — this is for nav.
-      switches that are mounted on the keyboard PCB. The top of the adaptor’s MX
-      stem should line up with the stem tops of the MX switches. The length of
-      the adaptor combined with the inherent wobbliness of 5-way switches may
-      make this combination feel a little unstable.
-    * [Nav Switch to MX Stem Adaptor (plate mount)][mx2navPlate] — this is for
+   switches. The STL and glTF files, and more information can be found in the
+   [*Adaptors* directory][adaptors]:
+    * Nav Switch to MX Stem Adaptor (PCB mount) — this is for nav.
+      switches that are mounted on the keyboard PCB.
+    * Nav Switch to MX Stem Adaptor (plate mount)] — this is for
       nav. switches that are mounted using the Nav Switch to MX Adapter
-      mentioned above and is the shortest non-destructive adaptor. However, the
-      adapted keycaps will be higher than those of surrounding MX switches, and
-      because of the thin connection between the nav. switch sleeve and the MX
-      cross stem, this can be a little fragile.
-    * [Nav Switch to MX Keycap Adaptor (destructive)][mx2navDest] — this is
-      probably the best option, *but* requires partially destroying a keycap!
+      mentioned above.
+    * Nav Switch to MX Keycap Adaptor (destructive) — this is perhaps the best
+      option, *but* requires partially destroying a keycap!
 
 
 [ALPS SKQUCAA010]: https://tech.alpsalpine.com/e/products/detail/SKQUCAA010/
@@ -141,6 +134,3 @@ Options for keycaps on navigation switches:
 [keyboard matrix]: https://www.pcbheaven.com/wikipages/How_Key_Matrices_Works/
 [nav2mx]: https://www.thingiverse.com/thing:3958026
 [adaptors]: https://github.com/bgkendall/nav-switch-mount/tree/main/Adaptors
-[mx2navPCB]: https://www.tinkercad.com/things/bekaGf7odDx-nav-switch-to-mx-stem-adaptor-pcb-mount?sharecode=R3sgx1bJaI9IwZs5TYhDiTSV8UOKPbyqHVSEtGYQLDg
-[mx2navPlate]: https://www.tinkercad.com/things/7jTtJ6HvAXj-nav-switch-to-mx-stem-adaptor-plate-mount?sharecode=IhC0T7EwBWF4NyNEA4Dhvkeg3NzzW6T-peJMX2NnrZU
-[mx2navDest]: https://www.tinkercad.com/things/3gL4wvWRLj1-nav-switch-to-mx-keycap-adaptor-destructive?sharecode=r8TKDKdgjJ2txvJRraO-QcmJA2kGXZVvP2sOEYxu-jg
